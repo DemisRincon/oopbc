@@ -1,0 +1,53 @@
+@mixin Three($color) {
+    &:nth-child(1) {
+        .RowBox {
+            .Vertical1 {
+               
+            }
+            .Vertical2 {
+                background-color: $color;
+            }
+        }
+        .SmallRowBox {
+            .Square {
+            }
+            .Horizontal {
+                background-color: $color;
+            }
+        }
+    }
+    &:nth-child(2) {
+        .RowBox {
+            .Vertical1 {
+               
+            }
+            .Vertical2 {
+                background-color: $color;
+            }
+        }
+        .SmallRowBox {
+            .Square {
+            }
+            .Horizontal {
+                background-color: $color;
+            }
+        }
+    }
+    &:nth-child(3) {
+        .RowBox {
+            .Vertical1 {
+               
+            }
+            .Vertical2 {
+                background-color: $color;
+            }
+        }
+        .SmallRowBox {
+            .Square {
+            }
+            .Horizontal {
+                background-color: $color;
+            }
+        }
+    }
+}

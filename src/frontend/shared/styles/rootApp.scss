@@ -1,0 +1,24 @@
+@import '../../shared/styles/vars';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $lblue;
+}
+body {
+  box-sizing: border-box;
+  font-family: $font;
+  margin: 0;
+  background-color: $black;
+  &::-webkit-scrollbar{
+    display: none;
+}
+}
+div{
+
+color: $lblue;
+}
+

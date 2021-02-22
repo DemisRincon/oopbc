@@ -1,57 +1,60 @@
-![BrightCoders](images/logo-bc.png)
+![BrightCoders Logo](img/logo-bc.png)
 
-# Social Proof
+# Number to LCD
 
-El propósito de este ejercicio es conocer tus habilidades de diseño web. No vamos a evaluar que tan experto eres, sino lo que buscamos es comprobar que tienes las bases necesarias para poder aprovechar al máximo nuestro programa
+![cover](img/cover.jpg)
+<span>Photo by <a href="https://unsplash.com/@joshsorenson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Josh Sorenson</a> on <a href="https://unsplash.com/s/photos/lcd-digit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-## Requerimientos funcinales
+El propósito de este ejercicio es conocer tus habilidades de programación, puedes utilizar el lenguaje que prefieras. Tu solución deberá mostrar el uso de los principios de la programación orientada a objetos. Es decir, deberá estar organizado en clases con métodos y atributos.
 
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
-Para evaluar tus habilidades de diseño web utilizaremos un ejercicio tomado de la página [Frontend Mentor](https://www.frontendmentor.io/).
+## Requerimientos funcionales
 
-Your challenge is to build out this social proof section and get it looking as close to the design as possible.
+### Parte 1
+Escribe una programa que dado un número entero (con un número arbitrario de dígitos), lo convierta en números tipo LCD utilizando el siguiente formato:
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+```
+   _  _     _  _  _  _  _  
+ | _| _||_||_ |_   ||_||_|  
+ ||_  _|  | _||_|  ||_| _|  
+ ```
+(cada digito tiene una altura de 3 líneas)
 
-Your users should be able to:
+**NOTA:** Por favor, **NO** leer la segunda parte hasta completar la primera. Uno de los propósitos de esta kata es practicar la refactorización adaptando el código a cambios en los requerimientos.
 
-- View the optimal layout for the section depending on their device's screen size
+### Parte 2
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Modifica el programa para soportar un número variable de ancho y alto para cada dígito.
+Por ejemplo, para ancho = 3 y alto = 2 el dígito 2 sería:
 
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
-
-You will find all the required assets in the `/images` folder. The assets are already optimized.
-
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
-2. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-3. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-4. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+```
+___
+    |
+    |
+ ___
+|
+|
+ ___
+ ```
 
 ## Requerimientos no-funcionales
 - Ejecución
-  -  Apariencia de la página, es decir que tan similar es al diseño solicitado
-  - La página debe ser responsiva, por eso se proporciona tanto el diseño móvil como el de escritorio 
+  - Puede ejecutarse desde la linea de comandos y mostrar la salida en consola 
 - Código fuente
-  - HTML + CSS (si así lo prefieres puedes utilizar el framework de tu elección)
+  - Orientado a Objetos
   
+## Tecnologías
+- Lenguaje de programación de elección libre
+- Línea de comando
+
 ## Entregable
 - Código fuente en Github
   - La solución debe cumplir con los requerimientos funcionales y no funcionales
   
-## Tecnologías
-- HTML + CSS
-- No es necesario utilizar algún framework en particular, pero si necesitas hacerlo adelante, no hay problema.
-
 ## Evaluación / Revisión
 - Cumplimiento de los requerimientos funcionales
-- Cumplimiento de los requerimientos no funcionales
+- Cumplimiento de los requerimientos no funcionales 
+- Orientación a objetos
 
 ## Tiempo
 - 7 días para resolver el ejercicio
-

@@ -1,0 +1,37 @@
+@import "../../../shared/styles/vars";
+.InputContainer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    input {
+        height: 40px;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        outline: none;
+        font-size: $fontSize;
+        border: 1px solid$mblue;
+        padding-left: 10px;
+        border-radius: 0.25rem;
+        margin-right: 50px;
+        width: 50%;
+    }
+    button {
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: $fontSize;
+        color: $lblue;
+        background-color: $grey;
+        border-radius: 0.25rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        &:hover{
+            cursor: pointer;
+            background-color: rgba($color: $grey, $alpha: 0.8);
+        }
+    }
+}
