@@ -1,0 +1,27 @@
+@import "../../../shared/styles/vars";
+.MainPresentation {
+    height: calc(100vh - 8vh);
+    .ImageContainer {
+        height: 100%;
+        width: 100%;
+        background-image: url("/cover.jpg");
+        background-position: center;
+        background-size: cover;
+        box-shadow: inset 150px 0px 400px 300px rgba($color: $black, $alpha: 1);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .PresentationLabels {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            text-align: center;
+            h3{
+                width: 50%;
+            }
+        }
+    }
+}

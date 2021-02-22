@@ -1,0 +1,26 @@
+{
+    "frameworks":{
+        "name":"Frameworks an tools",
+        "list":["react.svg","next.svg","sass.svg"]
+    },
+    "contact":{
+        "name":"Contact",
+        "list":[
+            {
+                "link":"https://www.linkedin.com/in/demis-alberto-rincon-martinez/",
+                "img":"in.svg",
+                "name":"Linkedin"
+            },
+            {
+                "link":"https://www.facebook.com/noctisdemis.luciscaelum",
+                "img":"face.svg",
+                "name":"Facebook"
+            }
+        ]
+    },
+    "legal":[
+        "All the images used here belong to their respective authors.",
+        "The code was written by me feel free to use it.",
+        "This is an exercise for training it don't have lucrative intentions."
+    ]
+}

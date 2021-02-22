@@ -1,0 +1,44 @@
+@mixin Nine($color) {
+    &:nth-child(1) {
+      
+        .SmallRowBox {
+         
+            .Horizontal {
+                background-color: $color;
+            }
+        }
+    }
+    &:nth-child(2) {
+        .RowBox {
+            .Vertical1 {
+               
+                background-color: $color;
+            }
+            .Vertical2 {
+                background-color: $color;
+            }
+        }
+        .SmallRowBox {
+          
+            .Horizontal {
+                background-color: $color;
+            }
+        }
+    }
+    &:nth-child(3) {
+        .RowBox {
+            .Vertical1 {
+               
+            }
+            .Vertical2 {
+                background-color: $color;
+            }
+        }
+        .SmallRowBox {
+            
+            .Horizontal {
+                background-color: $color;
+            }
+        }
+    }
+}

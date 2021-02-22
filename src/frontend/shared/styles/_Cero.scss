@@ -1,0 +1,38 @@
+@mixin Cero($numberColor) {
+    &:nth-child(1) {
+        .SmallRowBox {
+            .Horizontal {
+                background-color: $numberColor;
+            }
+        }
+    }
+    &:nth-child(2) {
+        .RowBox {
+            .Vertical1 {
+                background-color: $numberColor;
+            }
+            .Vertical2 {
+                background-color: $numberColor;
+            }
+        }
+        .SmallRowBox {
+            .Horizontal {
+            }
+        }
+    }
+    &:nth-child(3) {
+        .RowBox {
+            .Vertical1 {
+                background-color: $numberColor;
+            }
+            .Vertical2 {
+                background-color: $numberColor;
+            }
+        }
+        .SmallRowBox {
+            .Horizontal {
+                background-color: $numberColor;
+            }
+        }
+    }
+}

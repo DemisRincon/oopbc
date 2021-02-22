@@ -1,0 +1,41 @@
+@import "../../../shared/styles/vars";
+.MainPresentation {
+    height: calc(100vh - 8vh);
+    .ImageContainer {
+        height: 100%;
+        width: 100%;
+      
+      background-color: $grey;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .PresentationLabels {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            text-align: center;
+            h1{
+
+                color: white;
+            }
+            h3{
+                color: white;
+                width: 80%;
+            }
+        }
+        .ImageContainerPres{
+        
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 30%;
+            }
+        }
+    }
+}

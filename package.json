@@ -1,0 +1,32 @@
+{
+  "name": "kata-01-object-oriented-programming-demisrincon",
+  "version": "1.0.0",
+  "description": "![BrightCoders Logo](img/logo-bc.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start":"next start",
+    "build":"next build",
+    "export":"next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BC-MAR-21-Candidates/kata-01-object-oriented-programming-DemisRincon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BC-MAR-21-Candidates/kata-01-object-oriented-programming-DemisRincon/issues"
+  },
+  "homepage": "https://github.com/BC-MAR-21-Candidates/kata-01-object-oriented-programming-DemisRincon#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.5.4-canary.10",
+    "node-sass": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

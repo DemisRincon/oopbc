@@ -1,0 +1,46 @@
+@import './vars';
+@import './Cero';
+@import './One';
+@import './Two';
+@import './Three';
+@import './Four';
+@import './Five';
+@import './Six';
+@import './Seven';
+@import './Eight';
+@import './Nine';
+
+@mixin Numbers {
+    
+    .Cero{
+        @include Cero($numberColor);
+    }
+    .One {
+        @include One($numberColor);
+    }
+    .Two {
+        @include Two($numberColor);
+    }
+    .Three{
+        @include Three($numberColor);
+    }
+    .Four{
+        @include Four($numberColor)
+    }
+   
+    .Five{
+        @include Five($numberColor)
+    }
+    .Six{
+        @include Six($numberColor)
+    }
+    .Seven{
+        @include Seven($numberColor)
+    }
+    .Eight{
+        @include Eight($numberColor)
+    }
+    .Nine{
+        @include Nine($numberColor)
+    }
+}
