@@ -9184,7 +9184,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "F:\\Development\\Projects\\NODE\\BrightCoders\\netlify\\kata-01-object-oriented-programming-DemisRincon\\pages\\_app.jsx";
+var _jsxFileName = "F:\\Development\\Projects\\NODE\\BrightCoders\\Feb\\kata-01-object-oriented-programming-DemisRincon\\pages\\_app.jsx";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -9274,7 +9274,7 @@ $RefreshReg$(_c, "MyApp");
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx!./");
-module.exports = __webpack_require__(/*! F:\Development\Projects\NODE\BrightCoders\netlify\kata-01-object-oriented-programming-DemisRincon\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! F:\Development\Projects\NODE\BrightCoders\Feb\kata-01-object-oriented-programming-DemisRincon\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ })

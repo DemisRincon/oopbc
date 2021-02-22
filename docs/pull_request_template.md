@@ -43,6 +43,7 @@ Then you should install  the packages with the node package manager on the root 
 Once you have installed all the packages you should run the project whit the next command:
     * npm run dev
 Also, the project is deployed on netlify in the next URL
+https://bright-coders-oop.netlify.app/
 
 -->
 
@@ -62,8 +63,9 @@ Then you should install  the packages with the node package manager on the root 
 Once you have installed all the packages you should run the project whit the next command:
     * npm run dev
 Also, the project is deployed on netlify in the next URL
+https://bright-coders-oop.netlify.app/
 
 
-
+-->
 
 
