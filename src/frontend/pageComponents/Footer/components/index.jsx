@@ -8,10 +8,10 @@ const Foooter = () => {
             <div className={styles.Frameworks}>
                 <h4>{data.frameworks.name}</h4>
                 <ul>
-                    {data.frameworks.list.map(item => {
+                    {data.frameworks.list.map((item,index) => {
                         return (
-                            <li>
-                                <img src={item} alt />
+                            <li  key={String(item)+index}>
+                                <img src={item} alt=""  />
                             </li>
                         )
                     })}
@@ -24,9 +24,9 @@ const Foooter = () => {
 
                     {
                         data.contact.list.map(
-                            item => {
+                            (item ,index) => {
                                 return (
-                                    <li>
+                                    <li key={String(item)+index}>
                                         <Link href={item.link} passHref={true}>
                                             <>
                                                 <img src={item.img} alt="" />
@@ -45,7 +45,7 @@ const Foooter = () => {
             <div className={styles.Legal}>
                 <ul>
                     {
-                        data.legal.map(item => <li> {item}</li>)
+                        data.legal.map((item,index) => <li  key={String(item)+index}> {item}</li>)
                     }
 
                 </ul>
