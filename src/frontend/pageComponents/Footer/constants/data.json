@@ -1,6 +1,6 @@
 {
     "frameworks":{
-        "name":"Frameworks an tools",
+        "name":"Frameworks and tools",
         "list":["react.svg","next.svg","sass.svg","netlify.svg"]
     },
     "contact":{
